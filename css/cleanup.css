@@ -1,1 +1,16 @@
 /* write your override styles here */
+
+p img[alt="Chrome Dev Tools"] {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    display: block;
+}
+p img[alt="Chrome Dev Tools"] {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+p img[alt="Chrome Dev Tools"]{
+    display: none;
+}
